@@ -2,5 +2,5 @@
 .git
 .mxproject
 .project
-.settings/*
-.*
+.settings/
+*.ioc
