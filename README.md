@@ -1,6 +1,6 @@
 # STM32F429 von ST-Microelectronics
 
-Implementation of the Cortex-M4 architecture from ST-Microelectronics: The STM32F429.
+Implementation of the Cortex-M4 architecture from ST-Microelectronics: The STM32F429. 
 
 ## Features of the STM32F429 Cortex-M4 from ST
 
