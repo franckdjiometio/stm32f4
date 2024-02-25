@@ -2,4 +2,5 @@
 .git
 .mxproject
 .project
-.settings
+.settings/*
+.*
