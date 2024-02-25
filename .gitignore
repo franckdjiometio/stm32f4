@@ -4,4 +4,5 @@
 .project
 .settings/
 *.ioc
-*.ld
+STM32F429ZITX_FLASH.ld
+STM32F429ZITX_RAM.ld
