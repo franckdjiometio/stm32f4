@@ -6,3 +6,7 @@
 *.ioc
 STM32F429ZITX_FLASH.ld
 STM32F429ZITX_RAM.ld
+.DS_Store
+Debug/
+led_blink Debug.launch
+stm32f429 Debug.launch
