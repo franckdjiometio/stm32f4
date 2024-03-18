@@ -21,7 +21,7 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-
+#include "../modules/led_blink/led_blink.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -93,10 +93,13 @@ int main(void)
   /* USER CODE BEGIN WHILE */
   while (1)
   {
-	  HAL_GPIO_WritePin(GPIOG, LD4_Pin, GPIO_PIN_SET); // LED ON
-	  HAL_Delay(1000);
-	  HAL_GPIO_WritePin(GPIOG, LD4_Pin, GPIO_PIN_RESET); // LED OFF
-	  HAL_Delay(1000);
+	led_set_on(LD4_Pin);
+	led_set_on(LD3_Pin);
+	HAL_Delay(500);
+	led_set_off(LD4_Pin);
+	HAL_Delay(500);
+	led_set_off(LD3_Pin);
+	HAL_Delay(500);
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
