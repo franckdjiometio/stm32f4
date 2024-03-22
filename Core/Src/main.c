@@ -97,7 +97,7 @@ int main(void)
   /* Initialization of the LCD */
   lcd_init();
 
-  	/* Draw text to LCD */
+  /* Draw text to LCD */
   lcd_draw_text_at_line("   Hello World!", 5, BLACK, 2, WHITE);
   lcd_draw_text_at_line("    Welcome to", 7, BLACK, 2, WHITE);
   lcd_draw_text_at_line("       FLDS", 9, BLACK, 2, WHITE);
